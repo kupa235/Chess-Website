@@ -1,0 +1,65 @@
+body {
+    /*By Pfc. C. Warren Peace - This image was released by the United States Marine Corps.*/
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 100vw 100vh;
+
+}
+
+section{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+    padding: 10px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    box-shadow: 0 0 10px #108006e7;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    padding: 0px;
+margin: 0px;
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+    font-size: 50px;
+    box-shadow: 0 0 10px #108006e7;
+}
+
+nav a {
+    border-radius: 20px;
+background-color: rgb(255, 255, 255);
+text-decoration: none;
+color:black;
+
+}
+
+nav a:hover {
+background-color: #108006e7;
+color: white;
+}
+
+.contact {
+display: grid;
+padding: 2em;
+grid-template-columns: auto auto;
+
+}
+
+.grid-item{
+    border: rgba(247, 7, 7, 0.904);
+    border-style: dashed;
+    align-items: center;
+    grid-auto-flow: column;
+}
+
+.contact a {
+    padding: 2em;
+    grid-template-columns: auto auto;
+    
+}
