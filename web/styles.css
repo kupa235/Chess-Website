@@ -65,3 +65,13 @@ grid-template-columns: auto auto;
 .text a {
     align-self: center;
 }
+
+button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(14, 80, 1);
+    width: 150px;
+}
+
+button a {
+    color: white;
+}
