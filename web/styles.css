@@ -28,7 +28,6 @@ nav {
     text-align: center;
     font-size: 50px;
     box-shadow: 0 0 10px #108006e7;
-    font
 }
 
 nav a {
@@ -78,6 +77,16 @@ button a {
 }
 
 .test {
-    background-color: blue;
-    height: 50px
+    background-color: rgba(26, 90, 0, 0.233);
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+    grid-template-columns: auto auto auto;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
 }
