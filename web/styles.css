@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://th.bing.com/th/id/OIP.IFwKMkuFQbj10ZC6nmMvhwHaHa?w=169&h=180&c=7&r=0&o=5&pid=1.7com/th/id/OIP.4P6MCIgXJCdfwOpgeaIaHQHaF7?w=252&h=202&c=7&r=0&o=5&pid=1.7 ");
+    background-image: url(/Webproject/images/OIP.jfif);
     background-repeat: repeat;
     background-position: cover;
     background-size: 100vw 100vh;
@@ -15,7 +15,7 @@ section{
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 20px;
     box-shadow: 0 0 10px #108006e7;
-    color: rgb(255, 255, 255);
+    color: rgb(197, 197, 197);
 }
 
 body {
@@ -32,15 +32,17 @@ nav {
 
 nav a {
     border-radius: 20px;
-background-color: rgb(255, 255, 255);
+background-color: rgb(211, 211, 211);
 text-decoration: none;
 color:black;
+padding: 10px;
 
 }
 
 nav a:hover {
 background-color: #108006e7;
 color: white;
+padding: 10px;
 }
 
 .contact {
